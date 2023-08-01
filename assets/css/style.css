@@ -1,0 +1,152 @@
+/* sectioin2-ans1 code */
+
+.card{
+    height: 300px;
+    width: 200px;
+    background-color: grey;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+    border: 2px solid black;
+    box-shadow: -1 -1 #000;
+    transition: .3s;
+    margin: 10px;
+    
+}
+
+
+.card .card-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    
+}
+
+.card .card-image{
+    padding: 0px 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+
+
+.card .card-title{
+    transition: .2s;
+}
+
+.card .card-title:hover{
+    color: rgb(0, 255, 26);
+}
+
+.card .card-description{
+    text-align: justify;
+    margin: 0px  10px 10px 10px;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.card:hover{
+    background-color: rgb(153, 153, 153);
+}
+
+
+/* section2-ans2 */
+
+header>nav>ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+header>nav>ul>li{
+    margin: 0px 30px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+header>nav>ul>li:hover{
+    background-color: orange;
+    
+}
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: aqua;
+}
+
+
+/* section2-ans3 code */
+
+.pricing-table>tbody>th>td{
+    padding: 10px;
+}
+
+table>thead{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+table{
+    width: 60%;
+    height: 100px;
+    background-color: orange;
+}
+
+/* section2-ans5 */
+.form{
+    background-color: bisque;
+}
+
+/* section2-ans4 */
+.box{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+    margin-top: 150px;
+    display: none;
+    
+    
+}
+.box>h1{
+    padding-top: 80px;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.btn:click .box{
+   display: inline-block;
+}
+
+
+
+
+
